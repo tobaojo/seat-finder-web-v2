@@ -5,7 +5,7 @@ const Homepage = () => {
   const { homepageQuery } = useHomepage();
 
   const hero = homepageQuery?.data?.hero;
-  console.log(hero);
+  console.log(`hero section`, hero);
   return (
     <section>
       Homepage
